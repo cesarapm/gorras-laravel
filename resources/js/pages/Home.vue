@@ -8,7 +8,8 @@
             <span>ESTILO MAFIA HATS</span>
           </div>
           <h1 class="hero-title mb-4 mb-md-6">
-            No Sigues Tendencias,<br class="d-none d-md-block">
+            No Sigues Tendencias, <br> <br class="d-block d-md-none">
+
             <span class="accent-text">Las Representas</span>
           </h1>
           <p class="hero-subtitle mb-6 mb-md-10">
@@ -329,7 +330,7 @@ const scrollToProducts = () => {
 }
 
 .hero-title {
-  font-size: clamp(1.75rem, 5vw, 4.5rem);
+  font-size: clamp(1.75rem, 5vw, 4.3rem);
   font-weight: 900;
   line-height: 1.2;
   letter-spacing: -1px;
@@ -339,6 +340,7 @@ const scrollToProducts = () => {
   .hero-title {
     line-height: 1.1;
     letter-spacing: -2px;
+
   }
 }
 
@@ -347,6 +349,9 @@ const scrollToProducts = () => {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  font-size: 60px;
+  margin-top: 0px !important;
+
 }
 
 .hero-subtitle {
@@ -554,5 +559,12 @@ const scrollToProducts = () => {
   .philosophy-section {
     padding: 60px 20px;
   }
+  .accent-text {
+  background: linear-gradient(135deg, #ffffff 0%, #a0a0a0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 30px;
+}
 }
 </style>
